@@ -83,7 +83,7 @@ To comment out a line of code in JavaScript, use // at the beginning.
 * **Explain what needs to happen to get a JavaScript program to "run", given the JavaScript you've seen in this assignment.**
 1. include the JavaScript in a <script> tag
 2. call the function, example: onload = "displayInformation();"
-Cite: https://javascript.info/hello-world
+<br> <em>cite: https://javascript.info/hello-world</em>
 
 * **What functions in JavaScript seem to be similar in function to the `print` function in Python? (There are two.) Why might you use one and not the other? Explain briefly.**
 
