@@ -78,20 +78,22 @@ Some JavaScript code
 ```
 
 * **What does a code comment look like in JavaScript? What character/s do you have to put before a comment?**
-To comment out a line of code in JavaScript, use // at the beginning.
+<br>To comment out a line of code in JavaScript, use // at the beginning.
 
 * **Explain what needs to happen to get a JavaScript program to "run", given the JavaScript you've seen in this assignment.**
 1. include the JavaScript in a <script> tag
 2. call the function, example: `onload = "displayInformation();"` <br>
-<em>cite: https://javascript.info/hello-world</em>
+<em>https://javascript.info/hello-world</em>
 
 * **What functions in JavaScript seem to be similar in function to the `print` function in Python? (There are two.) Why might you use one and not the other? Explain briefly.**
 1. window.alert(), this is used to give information to the end user
 2. console.log(), this is for debugging (preferable for programmer, so that users don't see irrelevant error messages)
-<em>cite: Ruchi Ookalkar & https://www.w3schools.com/js/js_output.asp</em>
+<br><em>Ruchi Ookalkar & https://www.w3schools.com/js/js_output.asp</em>
 
 * **What code would have to comment out to get rid of the pop-up box when you load the page? (Related to the last question.) Do that in the code file, and then, add code so that a text box will appear that contains the current date and time! *HINT:* Look through the rest of the code first...**
-Comment out: `alert("hello");`
+<br>Comment out: `alert("hello");`
+<br>Add code: `alert(Date());` for displaying the date
+<br><em>Ruchi Ookalkar</em>
 
 * **How can you put your own name at the top where it currently says "A name"? Explain very briefly how to do so, and replace `A name` in the web page with your own name.**
 
