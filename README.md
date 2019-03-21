@@ -78,10 +78,12 @@ Some JavaScript code
 ```
 
 * **What does a code comment look like in JavaScript? What character/s do you have to put before a comment?**
-
-To comment out a line of code in JavaScript, use // at the beginning
+To comment out a line of code in JavaScript, use // at the beginning.
 
 * **Explain what needs to happen to get a JavaScript program to "run", given the JavaScript you've seen in this assignment.**
+1. include the JavaScript in a <script> tag
+2. call the function, example: onload = "displayInformation();"
+Cite: https://javascript.info/hello-world
 
 * **What functions in JavaScript seem to be similar in function to the `print` function in Python? (There are two.) Why might you use one and not the other? Explain briefly.**
 
