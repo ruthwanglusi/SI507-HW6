@@ -91,34 +91,36 @@ Some JavaScript code
 <br><em>Ruchi Ookalkar & https://www.w3schools.com/js/js_output.asp</em>
 
 * **What code would have to comment out to get rid of the pop-up box when you load the page? (Related to the last question.) Do that in the code file, and then, add code so that a text box will appear that contains the current date and time! *HINT:* Look through the rest of the code first...**
-Comment out: `alert("hello");`
+<br>Comment out: `alert("hello");`
 <br>Add code: `alert(Date());` for displaying the date
 <br><em>Ruchi Ookalkar</em>
 
 * **How can you put your own name at the top where it currently says "A name"? Explain very briefly how to do so, and replace `A name` in the web page with your own name.**
-update this line of code: `document.querySelector('h1').innerHTML = "A name";`
+<br>update this line of code: `document.querySelector('h1').innerHTML = "A name";`
 <br>innerHTML rewrites the text content in the h1
 
 * **What does the word `document` represent in this code? Explain briefly.**
-`document` is an object, it refers to everything on the web page.
+<br>`document` is an object, it refers to everything on the web page.
 <br>`document` can be used to access various elements, objects, and attributes on in the page.
 <em>https://www.w3schools.com/js/js_htmldom_document.asp  </em>
 
 * **What is happening in line 12 (
 		`document.querySelector('#items').innerHTML = document.getElementsByTagName('li').length`
 )? Explain, briefly (<= 2 sentences).**
-Find all the tags named as 'li', return that as an object (the length of the object = the number of list items on this whole page).
+<br>Find all the tags named as 'li', return that as an object (the length of the object = the number of list items on this whole page).
 <br>Display the number at where the id 'item' is in HTML.
 
 * **What color would the background of this page be <u>if there were no JavaScript in this page</u>?**
-It would be white, as white is the default background.
+<br>It would be white, as white is the default background.
 
 * **Why are there a couple of gray boxes on the screen with a different colored border? How could you edit this code to make them a different color? Explain briefly. Then edit the code to make those boxes some shade of blue, of your choosing.**
-The gray boxes are the background of paragraphs ('p' tags)
+<br>The gray boxes are the background of paragraphs ('p' tags)
 <br>Update `background-color: #b3b3b3;` to a different value.
 <br>Update `border: 3px solid #FFFFFF;` to a different value.
 
 * **Edit the code so that, if you highlight `McGill University` and copy it, you see the text `O Canada` near the bottom of the page. Briefly explain why you made the edits that you did -- how did you know/figure out what to do?**
+<br>I looked at the example for University of Michigan, and wrote `copyFunction2()`.
+<br>`copyFunction2()` is called `oncopy`, which then updates the text content of a `div` with the id `#cheer`
 
 * **In the original code, when you click the button that says `Wow`, you see a text box! Wow. Explain briefly in your own words why the following code causes that to happen:**
 
@@ -132,6 +134,8 @@ function handleClick(){
 ```js
 <button onclick=handleClick() id="wow-button">Wow</button>
 ```
+<br>`onclick` means that when the button is clicked run function `handleClick()`.
+<br>`alert("hello");` is triggered when running the function `handleClick()`.
 
 * **Knowing what you learned from the previous question, add code/markup to the `jsPracticeLab.html` file *so that* there is a button with the text `Spring Equinox 2019` on it somewhere on the page, and when that button is clicked, a text box containing the text `March 20, 2019` appears. (There's no function -- that I am aware of -- to automatically get this info, you've got to type it yourself.)**
 
