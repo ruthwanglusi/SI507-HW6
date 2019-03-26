@@ -139,7 +139,7 @@ function handleClick(){
 <br>`alert("hello");` is triggered when running the function `handleClick()`.
 
 * **Knowing what you learned from the previous question, add code/markup to the `jsPracticeLab.html` file *so that* there is a button with the text `Spring Equinox 2019` on it somewhere on the page, and when that button is clicked, a text box containing the text `March 20, 2019` appears. (There's no function -- that I am aware of -- to automatically get this info, you've got to type it yourself.)**
-<br>Function `handleClick2()` is created to trigger the alert box `onclick`
+<br>Function `handleClick2()` is created to trigger the alert box `onclick` when button "Spring Equinox 2019" is clicked.
 
 
 ### The next few questions address the `jquerylib_submit_example.html` file.
@@ -158,10 +158,12 @@ function handleClick(){
 * **What's different about the syntax of conditional statements in JavaScript, compared to Python?**
 <br> JavaScript Conditional:`if(conditional){outcome;} else{another outcome;}` the indentation doesn't matter
 <br> Python Conditional(indentation matters):
-`if conditional:
+```
+if conditional:
 	outcome
 else:
-	another outcome`
+	another outcome
+```
 
 * **What do you think the `10000` refers to in the code `.fadeOut(10000)`?**
 
