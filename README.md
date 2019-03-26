@@ -156,8 +156,8 @@ function handleClick(){
 <br><em>https://stackoverflow.com/questions/2790813/regular-expression-a-za-z-or-a-za-z</em>
 
 * **What's different about the syntax of conditional statements in JavaScript, compared to Python?**
-<br> JavaScript Conditional:`if(conditional){outcome;} else{another outcome;}` the indentation doesn't matter
-<br> Python Conditional(indentation matters):
+<br>JavaScript Conditional:`if(conditional){outcome;} else{another outcome;}` indentation doesn't matter
+<br>Python Conditional (indentation matters):
 ```
 if conditional:
 	outcome
@@ -166,6 +166,8 @@ else:
 ```
 
 * **What do you think the `10000` refers to in the code `.fadeOut(10000)`?**
+<br> `10000` means it takes 10 seconds for the message to fade out.
+<br><em>https://www.w3schools.com/jquery/eff_fadeout.asp</em>
 
 * **What do you think is going on with the following code at the beginning of the program? Note that the most important thing to do for answering this question is to be thoughtful and clear, not to be absolutely correct:**
 
@@ -174,6 +176,10 @@ $(document).ready(function(){
     $("form").submit(function(event){
 ```
 
+1.`$(document).ready(function(){` make sure that the jQuery script runs after the page is fully loaded, this helps avoid problems from trying to access various that may not have been created yet.
+<br><em>https://www.w3schools.com/jquery/jquery_syntax.asp</em>
+2.`$("form").submit(function(event){` calls the event function when an element named as "form" is submitted.
+<br><em>https://www.w3schools.com/jquery/event_submit.asp</em>
 
 * **Add some code to the `jquerylib_submit_example.html` file so that, if the input is valid and is specifically the text `hello`, rather than the visible output being `Nice!` in blue, the visible output should be `Hello to you too!`, also in blue, just like `Nice!` is.**
 	* *HINT:* You'll have to make some changes to the conditional statement, and possibly look up some JavaScript conditional syntax. You'll also need to look carefully at what generates visible output right now.
