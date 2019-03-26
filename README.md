@@ -96,6 +96,8 @@ Some JavaScript code
 <br><em>Ruchi Ookalkar</em>
 
 * **How can you put your own name at the top where it currently says "A name"? Explain very briefly how to do so, and replace `A name` in the web page with your own name.**
+update this line of code: `document.querySelector('h1').innerHTML = "A name";`
+innerHTML rewrites the text content in the h1
 
 * **What does the word `document` represent in this code? Explain briefly.**
 
