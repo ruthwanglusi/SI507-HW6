@@ -176,9 +176,9 @@ $(document).ready(function(){
     $("form").submit(function(event){
 ```
 
-1.`$(document).ready(function(){` make sure that the jQuery script runs after the page is fully loaded, this helps avoid problems from trying to access various that may not have been created yet.
+1. `$(document).ready(function(){` make sure that the jQuery script runs after the page is fully loaded, this helps avoid problems from trying to access various that may not have been created yet.
 <br><em>https://www.w3schools.com/jquery/jquery_syntax.asp</em>
-2.`$("form").submit(function(event){` calls the event function when an element named as "form" is submitted.
+2. `$("form").submit(function(event){` calls the event function when an element named as "form" is submitted.
 <br><em>https://www.w3schools.com/jquery/event_submit.asp</em>
 
 * **Add some code to the `jquerylib_submit_example.html` file so that, if the input is valid and is specifically the text `hello`, rather than the visible output being `Nice!` in blue, the visible output should be `Hello to you too!`, also in blue, just like `Nice!` is.**
