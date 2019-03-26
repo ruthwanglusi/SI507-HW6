@@ -121,7 +121,7 @@ Some JavaScript code
 * **Edit the code so that, if you highlight `McGill University` and copy it, you see the text `O Canada` near the bottom of the page. Briefly explain why you made the edits that you did -- how did you know/figure out what to do?**
 <br>I looked at the example for University of Michigan, and wrote `copyFunction2()`.
 <br>`copyFunction2()` is called `oncopy`, which then updates the text content of a `div` with the id `#cheer`
-<em>Steph Schouman</em>
+<br><em>Steph Schouman</em>
 
 * **In the original code, when you click the button that says `Wow`, you see a text box! Wow. Explain briefly in your own words why the following code causes that to happen:**
 
@@ -147,10 +147,21 @@ function handleClick(){
 * **Check out the file `jquerylib_submit_example.html`. This is an example of code that uses a package called `jQuery` (and this will need you to have an internet connection to run it properly, although the other file does not). Check out resources above for more on jQuery!**
 
 * **When you enter input that isn't valid, you see an error that is red. Why is the error in red? Why is the response for valid inputs blue?**
+<br>If returns false and run the code `<p class="error">Not valid!</p>`. This line of code is styled as the `error` class, which shows as red.
+<br>Otherwise, run this line of code `<p class="good">Nice!</p>`, which is styled as blue color, in the `good` class.
 
 * **What is this line `var regex = /^[a-zA-Z]+$/;` helping with? And if you googled something to figure that out, what did you google, and what, briefly, did you learn? (If you didn't need to google, you can leave that out, but explain briefly what that line is helping the program do, anyway.)**
+<br>`/^[a-zA-Z]+$/` means check to see if every character (`+$`) is an alphabet(either upper case or lower case).  `regex.test(currentValue)` then evaluate and returns a boolean value.
+<br><em>https://stackoverflow.com/questions/19657750/what-is-the-differnce-between-a-za-z-and-a-za-z</em>
+<br><em>https://stackoverflow.com/questions/2790813/regular-expression-a-za-z-or-a-za-z</em>
 
 * **What's different about the syntax of conditional statements in JavaScript, compared to Python?**
+<br> JavaScript Conditional:`if(conditional){outcome;} else{another outcome;}` the indentation doesn't matter
+<br> Python Conditional(indentation matters):
+`if conditional:
+	outcome
+else:
+	another outcome`
 
 * **What do you think the `10000` refers to in the code `.fadeOut(10000)`?**
 
