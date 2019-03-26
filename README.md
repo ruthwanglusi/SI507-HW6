@@ -91,19 +91,23 @@ Some JavaScript code
 <br><em>Ruchi Ookalkar & https://www.w3schools.com/js/js_output.asp</em>
 
 * **What code would have to comment out to get rid of the pop-up box when you load the page? (Related to the last question.) Do that in the code file, and then, add code so that a text box will appear that contains the current date and time! *HINT:* Look through the rest of the code first...**
-<br>Comment out: `alert("hello");`
+Comment out: `alert("hello");`
 <br>Add code: `alert(Date());` for displaying the date
 <br><em>Ruchi Ookalkar</em>
 
 * **How can you put your own name at the top where it currently says "A name"? Explain very briefly how to do so, and replace `A name` in the web page with your own name.**
 update this line of code: `document.querySelector('h1').innerHTML = "A name";`
-innerHTML rewrites the text content in the h1
+<br>innerHTML rewrites the text content in the h1
 
 * **What does the word `document` represent in this code? Explain briefly.**
+`document` is an object, it refers to everything on the web page.
+<br>`document` can be used to access various elements, objects, and attributes on in the page.
+<em>https://www.w3schools.com/js/js_htmldom_document.asp  </em>
 
 * **What is happening in line 12 (
 		`document.querySelector('#items').innerHTML = document.getElementsByTagName('li').length`
 )? Explain, briefly (<= 2 sentences).**
+Find all the tags named as <li>, return that as an object (the length of the object = the number of list items on this whole page). <br>Display the number at where the id 'item' is.
 
 * **What color would the background of this page be <u>if there were no JavaScript in this page</u>?**
 
