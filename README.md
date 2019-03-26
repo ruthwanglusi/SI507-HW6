@@ -107,11 +107,16 @@ update this line of code: `document.querySelector('h1').innerHTML = "A name";`
 * **What is happening in line 12 (
 		`document.querySelector('#items').innerHTML = document.getElementsByTagName('li').length`
 )? Explain, briefly (<= 2 sentences).**
-Find all the tags named as <li>, return that as an object (the length of the object = the number of list items on this whole page). <br>Display the number at where the id 'item' is.
+Find all the tags named as 'li', return that as an object (the length of the object = the number of list items on this whole page).
+<br>Display the number at where the id 'item' is in HTML.
 
 * **What color would the background of this page be <u>if there were no JavaScript in this page</u>?**
+It would be white, as white is the default background.
 
 * **Why are there a couple of gray boxes on the screen with a different colored border? How could you edit this code to make them a different color? Explain briefly. Then edit the code to make those boxes some shade of blue, of your choosing.**
+The gray boxes are the background of paragraphs ('p' tags)
+<br>Update `background-color: #b3b3b3;` to a different value.
+<br>Update `border: 3px solid #FFFFFF;` to a different value.
 
 * **Edit the code so that, if you highlight `McGill University` and copy it, you see the text `O Canada` near the bottom of the page. Briefly explain why you made the edits that you did -- how did you know/figure out what to do?**
 
@@ -127,8 +132,6 @@ function handleClick(){
 ```js
 <button onclick=handleClick() id="wow-button">Wow</button>
 ```
-
-
 
 * **Knowing what you learned from the previous question, add code/markup to the `jsPracticeLab.html` file *so that* there is a button with the text `Spring Equinox 2019` on it somewhere on the page, and when that button is clicked, a text box containing the text `March 20, 2019` appears. (There's no function -- that I am aware of -- to automatically get this info, you've got to type it yourself.)**
 
